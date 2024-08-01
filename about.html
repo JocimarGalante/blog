@@ -39,8 +39,8 @@
           />
           <h2 class="font-weight-bold">Jocimar Galante</h2>
           <p class="mb-4">
-            Aluno do IFSC - Instituto Federal de  Educação, Ciência e Tecnologia
-            de Santa Catarina, estou cursando uma especialização em  Educação
+            Aluno do IFSC - Instituto Federal de Educação, Ciência e Tecnologia
+            de Santa Catarina, estou cursando uma especialização em Educação
             Tecnológica
           </p>
           <div class="d-flex justify-content-center mb-5">
@@ -139,15 +139,15 @@
                 alt="Image"
               />
               <p class="m-0">
-                Sou um profissional com mais de 4 anos de experiência no
+                Sou um profissional com mais de 4 anos de experiência em
                 desenvolvimento de software, tendo trabalhado em projetos de
                 alta complexidade, predominantemente com Angular e .NET. Sou
                 graduado em Sistemas de Informação pela FeMASS e possuo
                 especialização em Engenharia de Software pela PUC Minas.
                 Atualmente, estou expandindo meus conhecimentos na área de
-                 Educação Tecnológica no IFSC, com o objetivo de integrar minhas
+                Educação Tecnológica no IFSC, com o objetivo de integrar minhas
                 habilidades em desenvolvimento de software com práticas
-                educacionais inovadoras. Minha paixão por tecnologia e  Educação
+                educacionais inovadoras. Minha paixão por tecnologia e Educação
                 me motiva a explorar novas metodologias e a contribuir para a
                 formação de futuros profissionais na área tecnológica.
               </p>
@@ -197,6 +197,7 @@
         <div class="container py-4 bg-secondary text-center">
           <p class="m-0 text-white">
             &copy;
+            <span id="ano"></span>
             <a class="text-white font-weight-bold" href="#">Jocimar Galante</a>.
             Todos os direitos reservados.
           </p>
@@ -220,5 +221,15 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      // Função para definir o ano atual no elemento com id "ano"
+      function adicionarAnoAtual() {
+        var anoAtual = new Date().getFullYear();
+        document.getElementById("ano").textContent = anoAtual;
+      }
+
+      // Chama a função quando a página está carregada
+      window.onload = adicionarAnoAtual;
+    </script>
   </body>
 </html>

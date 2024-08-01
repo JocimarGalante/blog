@@ -1,140 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Bloggy - Personal Blog Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bloggy - Personal Blog Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="sidebar">
-            <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
-                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Image">
-                <h2 class="font-weight-bold">Jocimar Galante</h2>
-                <p class="mb-4">
-                    Aluno do IFSC - Instituto Federal de  Educação, Ciência e Tecnologia de Santa Catarina, estou cursando uma especialização em  Educação Tecnológica
-                </p>
-                <div class="d-flex justify-content-center mb-5">
-                    <a class="btn btn-outline-primary mr-2" href="https://api.whatsapp.com/send?phone=5522998302864&text=Jocimar%20Galante"><i class="fab fa-whatsapp"></i></a>
-                    <a class="btn btn-outline-primary mr-2" href="https://www.facebook.com/jocimar.galante/?locale=pt_BR"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary mr-2" href="https://www.linkedin.com/in/jocimargalante/"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-primary mr-2" href="https://www.instagram.com/jocimargalante/"><i class="fab fa-instagram"></i></a>
-                </div>
-                <a href="" class="btn btn-lg btn-block btn-primary mt-auto">Pesquisa</a>
-            </div>
-            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
-                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
-            </div>
+      <div class="sidebar">
+        <div
+          class="sidebar-text d-flex flex-column h-100 justify-content-center text-center"
+        >
+          <img
+            class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3"
+            src="img/profile.jpg"
+            alt="Image"
+          />
+          <h2 class="font-weight-bold">Jocimar Galante</h2>
+          <p class="mb-4">
+            Aluno do IFSC - Instituto Federal de Educação, Ciência e Tecnologia
+            de Santa Catarina, estou cursando uma especialização em Educação
+            Tecnológica
+          </p>
+          <div class="d-flex justify-content-center mb-5">
+            <a
+              class="btn btn-outline-primary mr-2"
+              href="https://api.whatsapp.com/send?phone=5522998302864&text=Jocimar%20Galante"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a
+              class="btn btn-outline-primary mr-2"
+              href="https://www.facebook.com/jocimar.galante/?locale=pt_BR"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-outline-primary mr-2"
+              href="https://www.linkedin.com/in/jocimargalante/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn btn-outline-primary mr-2"
+              href="https://www.instagram.com/jocimargalante/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <a href="" class="btn btn-lg btn-block btn-primary mt-auto"
+            >Pesquisa</a
+          >
         </div>
-        <div class="content">
-            <!-- Navbar Start -->
-            <div class="container p-0">
-                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-                    <a href="" class="navbar-brand d-block d-lg-none">Navegação</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav m-auto">
-                            <a href="index.html" class="nav-item nav-link">Início</a>
-                            <a href="about.html" class="nav-item nav-link">Sobre</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Páginas</a>
-                                <div class="dropdown-menu">
-                                    <a href="blog.html" class="dropdown-item">Assuntos</a>
-                                    <a href="single.html" class="dropdown-item">Detalhe</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link active">Contato</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <!-- Navbar End -->
-
-            <!-- Page Header Start -->
-            <div class="container py-5 px-2 bg-primary">
-                <div class="row py-5 px-4">
-                    <div class="col-sm-6 text-center text-md-left">
-                        <h1 class="mb-3 mb-md-0 text-white text-uppercase font-weight-bold">Contate-me</h1>
-                    </div>
-                </div>
-            </div>
-            <!-- Page Header End -->
-
-
-            <!-- Contact Start -->
-            <div class="container bg-white pt-5">
-                <div class="row px-3 pb-2">
-                    <div class="col-sm-4 text-center mb-3">
-                        <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
-                        <h4 class="font-weight-bold">Endereço</h4>
-                        <p>Macaé, Rio de Janeiro, Brasil</p>
-                    </div>
-                    <div class="col-sm-4 text-center mb-3">
-                        <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
-                        <h4 class="font-weight-bold">Celular</h4>
-                        <p>+55 22 99830-2864</p>
-                    </div>
-                    <div class="col-sm-4 text-center mb-3">
-                        <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
-                        <h4 class="font-weight-bold">E-mail</h4>
-                        <p>jocimargalante@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-12 pb-5">
-                    <div class="contact-form">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Seu Nome" required="required" data-validation-required-message="Por favor insira o seu nome" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Seu E-mail" required="required" data-validation-required-message="Por favor insira o seu e-mail" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Assunto" required="required" data-validation-required-message="Por favor insira um assuntot" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" rows="8" id="message" placeholder="Mensagem" required="required" data-validation-required-message="Por favor insira sua mensagem"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary" type="submit" id="sendMessageButton">Enviar Mensagem</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <!-- Contact End -->
-
-
-            <!-- Footer Start -->
-            <div class="container py-4 bg-secondary text-center">
-                <p class="m-0 text-white">
-                    &copy; <a class="text-white font-weight-bold" href="#">Jocimar Galante</a>. Todos os direitos reservados.
-                </p>
-            </div>
-            <!-- Footer End -->
+        <div
+          class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right"
+        >
+          <i class="fas fa-2x fa-angle-double-right text-primary"></i>
         </div>
+      </div>
+      <div class="content">
+        <!-- Navbar Start -->
+        <div class="container p-0">
+          <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+            <a href="" class="navbar-brand d-block d-lg-none">Navegação</a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarCollapse"
+            >
+              <div class="navbar-nav m-auto">
+                <a href="index.html" class="nav-item nav-link">Início</a>
+                <a href="about.html" class="nav-item nav-link">Sobre</a>
+                <div class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    >Páginas</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="blog.html" class="dropdown-item">Assuntos</a>
+                    <a href="single.html" class="dropdown-item">Detalhe</a>
+                  </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link active"
+                  >Contato</a
+                >
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div class="container py-5 px-2 bg-primary">
+          <div class="row py-5 px-4">
+            <div class="col-sm-6 text-center text-md-left">
+              <h1
+                class="mb-3 mb-md-0 text-white text-uppercase font-weight-bold"
+              >
+                Contate-me
+              </h1>
+            </div>
+          </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- Contact Start -->
+        <div class="container bg-white pt-5">
+          <div class="row px-3 pb-2">
+            <div class="col-sm-4 text-center mb-3">
+              <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
+              <h4 class="font-weight-bold">Endereço</h4>
+              <p>Macaé, Rio de Janeiro, Brasil</p>
+            </div>
+            <div class="col-sm-4 text-center mb-3">
+              <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
+              <h4 class="font-weight-bold">Celular</h4>
+              <p>+55 22 99830-2864</p>
+            </div>
+            <div class="col-sm-4 text-center mb-3">
+              <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
+              <h4 class="font-weight-bold">E-mail</h4>
+              <p>jocimargalante@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-12 pb-5">
+            <div class="contact-form">
+              <div id="success"></div>
+              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Seu Nome"
+                    required="required"
+                    data-validation-required-message="Por favor insira o seu nome"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Seu E-mail"
+                    required="required"
+                    data-validation-required-message="Por favor insira o seu e-mail"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Assunto"
+                    required="required"
+                    data-validation-required-message="Por favor insira um assuntot"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <textarea
+                    class="form-control"
+                    rows="8"
+                    id="message"
+                    placeholder="Mensagem"
+                    required="required"
+                    data-validation-required-message="Por favor insira sua mensagem"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-primary"
+                    type="submit"
+                    id="sendMessageButton"
+                  >
+                    Enviar Mensagem
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div class="container py-4 bg-secondary text-center">
+          <p class="m-0 text-white">
+            &copy; <span id="ano"></span>
+            <a class="text-white font-weight-bold" href="#">Jocimar Galante</a>.
+            Todos os direitos reservados.
+          </p>
+        </div>
+        <!-- Footer End -->
+      </div>
     </div>
 
     <!-- Back to Top -->
@@ -152,6 +239,15 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
+    <script>
+      // Função para definir o ano atual no elemento com id "ano"
+      function adicionarAnoAtual() {
+        var anoAtual = new Date().getFullYear();
+        document.getElementById("ano").textContent = anoAtual;
+      }
 
+      // Chama a função quando a página está carregada
+      window.onload = adicionarAnoAtual;
+    </script>
+  </body>
 </html>
